@@ -1,9 +1,14 @@
 # OpenRegulatory Notified Body Survey Data
 
-This is the data of our notified body survey. [Read the announcement blog post][announcement].
+This is the data of our notified body survey, gathering anonymous "Amazon reviews" from medical device on
+notified bodies (those are the institutions which audit them, and it's often a suboptimal process).
 
-Some quick notes on data types and how our fancy preprocessing (spoiler: it was me, sitting in front of my
-computer at night, editing a spreadsheet):
+You can view a nicely-rendered version of this data on our [Notified Body Reviews
+page][notified-bodies]. There's also [the announcement blog post][announcement] which provides a more in-depth
+explanation of why we're doing this.
+
+Some quick notes on data types and our fancy preprocessing (spoiler: it's me, sitting in front of my computer
+at night, editing a spreadsheet):
 
 * Company names were removed - this is anonymized data after all.
 * Wait time durations (for QMS / Techdoc audit) were initially a string field but were now converted to an
@@ -41,4 +46,5 @@ computer at night, editing a spreadsheet):
 
 <!-- Links -->
 
+[notified-bodies]: https://openregulatory.com/notified-bodies/
 [announcement]: https://openregulatory.com/the-great-notified-body-survey-2022/
